@@ -1,0 +1,69 @@
+
+.nav-item:active{
+    background-color: #7177F1;
+    border-radius: 8%;
+}
+.header{
+    min-height: 565px;
+    margin-top: 70px;
+    display: flex;
+}
+.card{
+    margin-top: 5%!important;
+}
+.card-title{
+    text-transform: capitalize;
+    max-width: 520px;
+}
+.btn-primary{
+    max-width: 200px;
+}
+.section{
+    margin: 0 auto;
+}
+.card-2{
+    box-shadow: 2px 2px 5px 2px gray;
+}
+.btn-go{
+    text-transform: capitalize;
+}
+.height-360{
+    min-height:300px;
+}
+.chiziq{
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1px ;
+}
+.margin-top{
+    margin-top: 10%;
+}
+body{
+    position: relative;
+}
+.body::after{
+    position:absolute;
+    background:url(./img/dumaloq.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 3%;
+    left: 2%;
+
+    
+}
+.b-1::after{
+    position:absolute;
+    background:url(./img/bulut.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 5%;
+    left: 40%;
+    z-index: -1;
+}
